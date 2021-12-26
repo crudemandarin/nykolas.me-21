@@ -31,7 +31,7 @@ function Bio() {
 				</div>
 				<div className="w-full flex justify-end">
 					<img
-						className="w-2/3"
+						className="w-2/3 max-w-[350px]"
 						src={nykolasPhoto}
 						alt="Nykolas"
 					></img>
