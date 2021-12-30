@@ -101,7 +101,10 @@ function Experience() {
 	const [selectIndex, setSelectIndex] = useState(0);
 
 	return (
-		<section id="experience" className="w-full flex justify-center">
+		<section
+			id="experience"
+			className="w-full flex justify-center mb-[100px]"
+		>
 			<div className="w-3/5 max-w-[1000px]">
 				<h2 className="text-3xl mb-5">Professional Experience</h2>
 				<div className="w-full flex">

@@ -4,7 +4,7 @@ import nykolasLogo from "../resources/nykolas-icon.png";
 
 function Hero() {
 	return (
-		<section id="hero" className="h-screen flex justify-center">
+		<section id="hero" className="h-screen flex justify-center mb-[100px]">
 			<div className="w-4/5">
 				<div className="flex h-4/5 items-center">
 					<div className="w-full">

@@ -58,7 +58,7 @@ function Skills() {
 	];
 
 	return (
-		<section id="skills" className="flex justify-center">
+		<section id="skills" className="flex justify-center mb-[100px]">
 			<div className="w-3/5 max-w-[1000px]">
 				<h2 className="text-3xl mb-5">Skills</h2>
 				{data.map((skillGroup, i) => {
