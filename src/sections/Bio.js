@@ -3,7 +3,7 @@ import nykolasPhoto from "../resources/nykolas-photo.jpeg";
 function Bio() {
 	return (
 		<section id="bio" className="flex justify-center">
-			<div className="w-4/5 flex">
+			<div className="w-4/5 max-w-[1000px] flex">
 				<div className="w-full flex items-center">
 					<div>
 						<h2 className="text-3xl">About Me</h2>

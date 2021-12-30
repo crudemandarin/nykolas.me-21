@@ -11,7 +11,10 @@ function SkillBlock({ skillGroup }) {
 			</div>
 			<div className="w-2/3 flex flex-wrap">
 				{skillGroup.skills.map((skill) => (
-					<div className="bg-white tracking-wide w-fit h-fit px-2 py-1 m-1 rounded-md">
+					<div
+						key={`${skillGroup.title}.${skill}`}
+						className="bg-white tracking-wide w-fit h-fit px-2 py-1 m-1 rounded-md"
+					>
 						{skill}
 					</div>
 				))}

@@ -31,7 +31,7 @@ function Skills() {
 				"JWT",
 				"Bcrypt",
 				"jQuery",
-				"TailswindCSS",
+				"Tailswind",
 				"SASS",
 			],
 			bgColor: "bg-violet-600",
@@ -59,13 +59,16 @@ function Skills() {
 
 	return (
 		<section id="skills" className="flex justify-center">
-			<div className="w-3/5">
+			<div className="w-3/5 max-w-[1000px]">
 				<h2 className="text-3xl mb-5">Skills</h2>
 				{data.map((skillGroup, i) => {
 					let offset = "";
 					if ((i + 1) % 2 === 0) offset = "ml-auto";
 					return (
-						<div className={`w-4/5 my-4 ${offset}`}>
+						<div
+							key={skillGroup.title}
+							className={`w-4/5 my-4 ${offset}`}
+						>
 							<SkillBlock skillGroup={skillGroup} />
 						</div>
 					);

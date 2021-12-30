@@ -35,9 +35,8 @@ function Projects() {
 				<h2 className="text-3xl mb-5 text-center">Projects</h2>
 				<div className="flex justify-center flex-wrap">
 					{data.map((project) => (
-						<div className="m-3">
-							{" "}
-							<ProjectPreview project={project} />{" "}
+						<div key={project.title} className="m-3">
+							<ProjectPreview project={project} />
 						</div>
 					))}
 				</div>

@@ -18,7 +18,12 @@ function ProjectPreview({ project }) {
 			<p className="mb-1">{project.shortDesc}</p>
 			<div className="flex">
 				{project.tags.map((tag) => (
-					<p className="mr-3 text-green-600">{tag}</p>
+					<p
+						key={`${project.title}.${tag}`}
+						className="mr-3 text-green-600"
+					>
+						{tag}
+					</p>
 				))}
 			</div>
 		</div>
