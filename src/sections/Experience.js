@@ -33,7 +33,7 @@ function ExperienceNav({ experiences, selectIndex, setSelectIndex }) {
 
 function ExperienceContent({ positions }) {
 	return (
-		<div>
+		<>
 			{positions.map((position) => (
 				<div key={position.title}>
 					<div className="text-2xl font-bold">{position.title}</div>
@@ -47,7 +47,7 @@ function ExperienceContent({ positions }) {
 					</ul>
 				</div>
 			))}
-		</div>
+		</>
 	);
 }
 
