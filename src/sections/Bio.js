@@ -22,7 +22,7 @@ function Bio() {
 							the University of Houston, graduating Spring 2022.
 						</p>
 						<p>
-							<span className="text-green-600">
+							<span className="text-green-600 font-semibold">
 								Seeking full-time software engineering
 								opportunities for 2022
 							</span>
