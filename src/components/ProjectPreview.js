@@ -20,7 +20,7 @@ function ProjectPreview({ project }) {
 				{project.tags.map((tag) => (
 					<p
 						key={`${project.title}.${tag}`}
-						className="mr-3 text-green-600"
+						className="mr-3 text-green-500"
 					>
 						{tag}
 					</p>
