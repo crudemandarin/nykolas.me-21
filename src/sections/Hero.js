@@ -34,10 +34,10 @@ function Hero() {
 									onInit={(typewriter) => {
 										typewriter
 											.typeString("software engineer")
-											.pauseFor(3000)
+											.pauseFor(4000)
 											.deleteAll()
 											.typeString("cloud architect")
-											.pauseFor(3000)
+											.pauseFor(4000)
 											.deleteAll()
 											.typeString("human being")
 											.start();

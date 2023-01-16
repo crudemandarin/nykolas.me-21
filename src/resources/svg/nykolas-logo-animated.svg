@@ -3,12 +3,19 @@
     <path
         d="M393.223 424.104C366.904 445.755 327.06 448.59 281.98 432.497C237.123 416.483 188.91 382.206 148.501 333.085C108.092 283.963 83.7541 230.046 76.6894 182.943C69.5898 135.606 80.0537 97.0561 106.372 75.4055C132.691 53.755 172.535 50.92 217.615 67.013C262.472 83.0268 310.685 117.303 351.094 166.425C391.503 215.547 415.841 269.464 422.906 316.567C430.005 363.904 419.541 402.454 393.223 424.104Z"
         stroke="url(#paint0_linear_6_13)" stroke-width="20" />
-    <circle r="40" fill="#030096">
-        <animateMotion dur="20s" repeatCount="indefinite"
+    <circle r="40" fill="url(#paint0_linear_13_2)">
+        <animateMotion dur="4s" repeatCount="indefinite"
             path="M393.223,424.104L393.223,424.104C419.541,402.454 430.005,363.904 422.906,316.567C415.841,269.464 391.503,215.547 351.094,166.425C310.685,117.303 262.472,83.0268 217.615,67.013C172.535,50.92 132.691,53.755 106.372,75.4055C80.0538,97.0561 69.5898,135.606 76.6894,182.943C83.7542,230.046 108.092,283.963 148.501,333.085C188.91,382.206 237.123,416.483 281.981,432.497C327.06,448.59 366.904,445.755 393.223,424.104" />
     </circle>
+
+    <linearGradient id="paint0_linear_13_2" gradientTransform="rotate(20)">
+        <stop offset="0" stop-color="#0007AA" />
+        <stop offset="0.4" stop-color="#0007AA" />
+        <stop offset="0.9" stop-color="#7219d7" />
+    </linearGradient>
+
     <rect x="" y="" width="140" height="136.337" fill="url(#pattern0)">
-        <animateMotion dur="3s" repeatCount="indefinite" path="M58,298 55,305 Z" />
+        <animateMotion dur="1s" repeatCount="indefinite" path="M58,298 50,306 Z" />
 
     </rect>
     <rect x="50" y="52" width="400" height="396.703" fill="url(#pattern1)" />

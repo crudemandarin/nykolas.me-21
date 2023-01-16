@@ -25,7 +25,7 @@ function SkillBlock({ skillGroup }) {
 				className="rounded-md hover:bg-slate-200 mr-3 mb-2"
 			>
 				<img
-					className="h-[110px] p-1"
+					className="h-[160px] p-1"
 					src={skill.logo}
 					alt={skill.label}
 				/>
