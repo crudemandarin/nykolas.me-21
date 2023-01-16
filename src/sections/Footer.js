@@ -1,5 +1,6 @@
 import Socials from "../components/Socials";
-import nykolasLogo from "../resources/logos/nykolas-icon.png";
+
+import { ReactComponent as NykolasLogo } from "../resources/svg/nykolas-logo-animated.svg";
 
 import NavLink from "../components/NavLink";
 
@@ -11,7 +12,7 @@ function Footer() {
 				<div className="p-4" />
 			</div>
 			<div className="flex justify-center">
-				<img className="w-[100px]" src={nykolasLogo} alt="My logo" />
+				<NykolasLogo className="w-[100px] h-[100px]" />
 			</div>
 			<div className="text-center">
 				<p className="text-xl py-2">nykolasfarhangi@protonmail.com</p>

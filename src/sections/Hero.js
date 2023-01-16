@@ -2,8 +2,8 @@ import Typewriter from "typewriter-effect";
 
 import Nav from "../components/Nav";
 import Socials from "../components/Socials";
-import nykolasLogo from "../resources/logos/nykolas-icon.png";
 
+import { ReactComponent as NykolasLogo } from "../resources/svg/nykolas-logo-animated.svg";
 import { ReactComponent as DownDown } from "../resources/svg/down down.svg";
 
 function Hero() {
@@ -51,11 +51,7 @@ function Hero() {
 						<Socials />
 					</div>
 					<div className="w-full flex justify-end">
-						<img
-							className="w-2/3"
-							src={nykolasLogo}
-							alt="My logo"
-						/>
+						<NykolasLogo />
 					</div>
 				</div>
 				<div className="flex items-center">
