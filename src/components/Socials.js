@@ -1,6 +1,6 @@
-import githubIcon from "../resources/github-icon.png";
-import linkedInIcon from "../resources/linkedin-icon.png";
-import resumeIcon from "../resources/resume-icon.png";
+import githubIcon from "../resources/logos/github-icon.png";
+import linkedInIcon from "../resources/logos/linkedin-icon.png";
+import resumeIcon from "../resources/logos/resume-icon.png";
 
 function Socials() {
 	return (

@@ -1,7 +1,7 @@
 import nykolasPhoto from "../resources/nykolas-photo.jpeg";
 
-import { ReactComponent as TopBorder } from "../resources/top-border.svg";
-import { ReactComponent as BottomBorder } from "../resources/bottom-border.svg";
+import { ReactComponent as TopBorder } from "../resources/svg/top-border.svg";
+import { ReactComponent as BottomBorder } from "../resources/svg/bottom-border.svg";
 
 function Bio() {
 	return (

@@ -2,7 +2,9 @@ import Typewriter from "typewriter-effect";
 
 import Nav from "../components/Nav";
 import Socials from "../components/Socials";
-import nykolasLogo from "../resources/nykolas-icon.png";
+import nykolasLogo from "../resources/logos/nykolas-icon.png";
+
+import { ReactComponent as DownDown } from "../resources/svg/down down.svg";
 
 function Hero() {
 	return (
@@ -32,10 +34,10 @@ function Hero() {
 									onInit={(typewriter) => {
 										typewriter
 											.typeString("software engineer")
-											.pauseFor(2500)
+											.pauseFor(3000)
 											.deleteAll()
 											.typeString("cloud architect")
-											.pauseFor(2500)
+											.pauseFor(3000)
 											.deleteAll()
 											.typeString("human being")
 											.start();
@@ -58,9 +60,18 @@ function Hero() {
 				</div>
 				<div className="flex items-center">
 					<div className="w-full flex justify-between items-center">
-						<p className="text-2xl tracking-wider">
-							Learn more about me
-						</p>
+						<div className="flex items-center">
+							<div className="text-2xl tracking-wider">
+								<p>Scroll to learn more</p>
+							</div>
+							<div className="mx-3" />
+							<div
+								className="rounded-xl bg-slate-400 flex justify-center items-center"
+								style={{ width: "24px", height: "40px" }}
+							>
+								<DownDown width="16px" height="30px" />
+							</div>
+						</div>
 						<Nav />
 					</div>
 				</div>

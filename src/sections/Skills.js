@@ -14,7 +14,7 @@ function Skills() {
 	}, []);
 
 	return (
-		<section id="skills" className="flex justify-center mb-[100px]">
+		<section id="skills" className="flex justify-center mb-[200px]">
 			<div className="w-3/5 max-w-[1000px]">
 				<h2 className="text-3xl mb-5">Skills</h2>
 				{skills.length === 0 ? (

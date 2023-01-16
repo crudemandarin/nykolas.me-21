@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "./Button";
 
 /**
  * experiences = string[]
@@ -9,13 +10,15 @@ function TableNav({ experiences, selectIndex, setSelectIndex }) {
 		<>
 			{experiences.map((experience, index) => (
 				<div
-					key={`${experience.company}`}
+					key={`${experience.company}-container`}
+					className={"mb-4"}
 					onClick={() => setSelectIndex(index)}
-					className={`pb-1 ${
-						index === selectIndex ? "font-bold" : ""
-					}`}
 				>
-					{experience.company}
+					<Button
+						key={`${experience.company}`}
+						label={experience.company}
+						active={index === selectIndex}
+					/>
 				</div>
 			))}
 		</>
@@ -36,9 +39,9 @@ function TableContent({ positions }) {
 		<>
 			{positions.map((position) => (
 				<div key={position.title}>
-					<div className="text-2xl font-bold">{position.title}</div>
+					<div className="text-xl font-bold">{position.title}</div>
 					<div className="mb-1">{position.range}</div>
-					<ul className="list-disc pl-6 mb-3">
+					<ul className="list-disc pl-6 mb-8">
 						{position.bullets.map((bullet) => (
 							<li key={`${position.title}.${bullet}`}>
 								{bullet}
@@ -64,14 +67,19 @@ function ExperienceTable({ experiences }) {
 
 	return (
 		<>
-			<div className="w-1/4">
+			<div className="w-1/4 pr-16 flex flex-col items-end">
 				<TableNav
 					experiences={experiences}
 					selectIndex={selectIndex}
 					setSelectIndex={setSelectIndex}
 				/>
 			</div>
-			<div className="w-3/4">
+			<div className="w-3/4 pl-16 border-l-4 border-slate-200 border-solid">
+				<img
+					className="h-[80px] my-10"
+					src={experiences[selectIndex].logo}
+					alt="logo"
+				/>
 				<TableContent positions={experiences[selectIndex].positions} />
 			</div>
 		</>
