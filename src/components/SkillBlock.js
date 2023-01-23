@@ -35,12 +35,12 @@ function SkillBlock({ skillGroup }) {
 
 	return (
 		<div className={`w-fit flex p-3 rounded-lg ${skillGroup.bgColor}`}>
-			<div className="w-1/3">
-				<p className="text-2xl font-bold text-white">
+			<div className="max-w-[200px]">
+				<p className="pr-10 text-2xl font-bold text-white">
 					{skillGroup.title}
 				</p>
 			</div>
-			<div className="w-2/3 flex flex-wrap">{renderSkills()}</div>
+			<div className="flex flex-wrap">{renderSkills()}</div>
 		</div>
 	);
 }

@@ -12,26 +12,28 @@ function Bio() {
 					<div className="w-full flex items-center">
 						<div className="bg-white py-5 px-10 rounded-lg">
 							<h2 className="text-3xl">About Me</h2>
-							<p className="py-3">
-								I'm an energetic, ambitious, and growth-driven
-								tech-junkie.
-							</p>
+
+							<div className="py-3 text-slate-600 font-semibold">
+								<p>Cloud @ Google ⚡</p>
+
+								<p>
+									BS, Computer Science @ University of Houston
+									🎓
+								</p>
+							</div>
+
 							<p>
-								Over years of work experience, personal
-								projects, and student involvement, I have honed
-								broad technical skills alongside teamwork and
-								communication.
+								I’m a vibrant, ambitious, and growth-driven
+								tech-junkie. I enjoy solving problems and
+								building things.
 							</p>
+
 							<p className="py-3">
-								I'm currently pursuing a B.S. in Computer
-								Science at the University of Houston, graduating
-								Spring 2022.
-							</p>
-							<p>
-								<span className="text-green-500 font-semibold">
-									Seeking full-time software engineering
-									opportunities for 2022
-								</span>
+								Over several years of profession, student
+								involvement, and personal endeavors, I have
+								designed useful software and cloud
+								infrastructure, led and mentored peers, and
+								worked collaboratively to drive team success.
 							</p>
 						</div>
 					</div>
