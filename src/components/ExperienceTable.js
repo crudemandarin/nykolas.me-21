@@ -40,7 +40,7 @@ function TableContent({ positions }) {
 			{positions.map((position) => (
 				<div key={position.title}>
 					<div className="text-xl font-bold">{position.title}</div>
-					<div className="mb-1 text-slate-600	font-semibold">
+					<div className="mb-1 text-slate-500	font-semibold">
 						{position.range}
 					</div>
 					<ul className="list-disc pl-6 mb-8">

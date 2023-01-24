@@ -13,7 +13,7 @@ function Bio() {
 						<div className="bg-white py-5 px-10 rounded-lg">
 							<h2 className="text-3xl">About Me</h2>
 
-							<div className="py-3 text-slate-600 font-semibold">
+							<div className="py-3 text-slate-500 font-semibold">
 								<p>Cloud @ Google ⚡</p>
 
 								<p>

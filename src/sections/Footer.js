@@ -6,7 +6,7 @@ import NavLink from "../components/NavLink";
 
 function Footer() {
 	return (
-		<section id="footer" className="w-full">
+		<section id="footer" className="w-full mt-[100px]">
 			<div className="flex justify-center mb-14">
 				<NavLink label={"Back To Top"} targetId={"hero"} offset={0} />
 				<div className="p-4" />

@@ -8,7 +8,7 @@
  */
 function ProjectPreview({ project }) {
 	return (
-		<div className="flex flex-col w-[275px] h-[220px] p-3 bg-slate-200 rounded-md">
+		<div className="flex flex-col w-[280px] h-[220px] p-3 bg-slate-200 rounded-md">
 			<div>
 				<img
 					className="h-[55px] mb-1"
