@@ -33,6 +33,9 @@ function Projects() {
 			<section id="projects" className="flex justify-center mb-[20px]">
 				<div className="w-4/5 max-w-[1200px]">
 					<h2 className="text-3xl mb-5 text-center">Projects</h2>
+					<div className="flex justify-center flex-wrap mb-4">
+						<p className="italic">More information coming soon</p>
+					</div>
 					<div className="flex justify-center flex-wrap">
 						{projectPreviews}
 					</div>
