@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 import Socials from "../components/Socials";
 
 import { ReactComponent as NykolasLogo } from "../resources/svg/nykolas-logo-animated.svg";
-import { ReactComponent as DownDown } from "../resources/svg/down down.svg";
+import { ReactComponent as DownDown } from "../resources/svg/down-down.svg";
 
 function Hero() {
 	return (

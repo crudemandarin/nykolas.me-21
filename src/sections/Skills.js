@@ -26,7 +26,7 @@ function Skills() {
 						return (
 							<div
 								key={skillGroup.title}
-								className={`w-4/5 my-4 ${offset}`}
+								className={`w-fit my-4 ${offset}`}
 							>
 								<SkillBlock skillGroup={skillGroup} />
 							</div>
